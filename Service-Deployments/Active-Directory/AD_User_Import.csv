@@ -1,0 +1,2 @@
+﻿FirstName, LastName,FullName,DisplayName,Email, UserPrincipalName, SamAccountName, Password,Path,HomeDrive,HomeDirectory
+John,Smith,John Smith,John Smith,jsmith@yourdomain.com,jsmith@yourlocal.AD,jsmith,3w4yuiswe,"OU=Users,OU=Main Organization,DC=yourlocal,DC=AD",H:,\\fs-01\Home\jsmith

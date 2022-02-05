@@ -1,0 +1,7 @@
+# Active DIrecotry Deployment
+These scripts are used to setup Active Direcotry.
+They will allow you to setup the main services and systems
+Create new domain controllers
+Add user acccounts and groups
+Allow you to add accounts to groups
+As well as allow you to update all servers in the domain so they can be manged from a single point 
