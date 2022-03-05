@@ -1,5 +1,26 @@
 <#
-This is a hardware report for that creates an HTML report for review
+.SYNOPSIS
+  This script created an HTML report of the system it is run on.  It can be used when system details are needed and you want 
+  an eazy way to document the system 
+
+.DESCRIPTION
+  <Brief description of script>
+
+  .PARAMETER <Parameter_Name>
+    There are none at this time
+.INPUTS
+  There are none at this time
+.OUTPUTS
+  This will generate a report in the directory "C:\Temp\"  If you want the report to be created 
+  in a different location update the variable $ReportSavePath
+.NOTES
+  Version:        1.0
+  Author:         Jason Scanlon
+  Creation Date:  03-01-2022
+  Purpose/Change: Initial script development
+  
+.EXAMPLE
+  .\Get-System-Report.ps1
 #>
 
 [String]$ReportTitle = "System Report for: $env:COMPUTERNAME"
