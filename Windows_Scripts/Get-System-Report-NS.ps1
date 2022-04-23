@@ -605,4 +605,4 @@ $FinalReport.Add($(Get-HTMLClosePage))
 
 Write-Host "Compiling Report..." -ForegroundColor Green
 
-Save-HTMLReport -ReportContent $FinalReport -ShowReport -ReportName $ReportName -ReportPath $ReportSavePath
+Save-HTMLReport -ReportContent $FinalReport -ReportName $ReportName -ReportPath $ReportSavePath
